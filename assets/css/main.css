@@ -1,0 +1,119 @@
+.border-pretty {
+  border: 1px solid #ce9c95;
+}
+
+.masthead.text-center.text-white.d-flex {
+  background-color: transparent;
+  background-image: linear-gradient(180deg,#00003B 8%,#00003B59 45%);
+  opacity: 1;
+  transition: background .3s,border-radius .3s,opacity .3s;
+  transition-property: background, border-radius, opacity;
+  transition-duration: 0.3s, 0.3s, 0.3s;
+  transition-timing-function: ease, ease, ease;
+  transition-delay: 0s, 0s, 0s;
+}
+
+body {
+  background-image: url("../../assets/img//maos-acorrentadas.jpg") !important;
+}
+
+header.masthead.text-center.text-white.d-flex {
+  padding-bottom: 40px;
+}
+
+
+#descricao-chamativa-id {
+  font-size: 24px;
+  font-weight: 800;
+  color: #fff;
+  border-radius: 0 0 0 0;
+  background-color: #00906c;
+}
+
+.sombra {
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.caixa-texto-chamativo {
+  display: block;
+  height: 60px;
+  line-height: 70px;
+  width: auto;
+  /*background: #f1b721;*/
+  background-color: #ff355c;
+  text-align: center;
+}
+
+.texto-chamativo {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.5;
+}
+
+.texto-titulo {
+  font-weight: 525 !important;
+}
+
+.btn.btn-primary.btn-xl.js-scroll-trigger {
+  background-color: #ff355c;
+}
+
+#about {
+  background-color: #00906c !important;
+}
+
+p.texto-titulo {
+  font-weight: 700 !important;
+}
+
+@media (max-width: 381px) {
+  .caixa-texto-chamativo {
+    height: auto;
+  }
+}
+
+@media (max-width: 381px) {
+  body::after {
+    content: "";
+    background-image: url("../../assets/img//Background.png") !important;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+  
+}
+
+@media (max-width: 510px) {
+  body::after {
+    content: "";
+    background-image: url("../../assets/img//Background.png") !important;
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+  
+}
+
+#about {
+  background-color: white !important;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
